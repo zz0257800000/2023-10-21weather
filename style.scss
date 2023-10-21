@@ -1,0 +1,59 @@
+body {
+    background-color: cadetblue;
+    margin: 0;
+}
+
+.page {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.home {
+    border: 0px solid black;
+    flex-direction: column;
+
+    height: 100vh;
+
+    .search {
+        select {
+            height: 20px;
+            width: 150px;
+            background-color: aliceblue;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 10px;
+            font-size: 12pt;
+            padding: 0 50;
+            border-radius: 20px;
+        }
+    }
+
+    .text {
+        width: 150px;
+        height: 200px;
+        background-color: aliceblue;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        display: flex;
+
+        .right {
+            width: 40%;
+            height: 80%;
+            font-size: 30pt;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            border: 0px solid black;
+        }
+
+        .left {
+
+border: 0px solid black;
+
+        }
+    }
+}

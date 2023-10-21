@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<div class="home page">
+<h1>天氣預報</h1>
+
+
+<div class="search">
+    <select name="" id="city">
+        <option value="台北市">台北</option>
+        <option value="新北市">新北</option>
+        <option value="台中市">台中</option>
+        <option value="高雄市">高雄</option>
+        <option value="台南市">台南</option>
+        <option value="桃園市">桃園</option>
+        </select>
+</div>
+
+<div class="text">
+
+<div class="left">
+<h1 id="cityName">
+    台北
+</h1>
+<h3 id="condition">晴雲</h3>
+<h3 id="warm">溫度</h3>
+<div class="rain">
+    <span>降雨機率</span>
+    <span id="rain">%</span>
+</div>
+</div>
+
+<div class="right">
+    <i class="fa-solid fa-cloud"></i>
+
+</div>
+</div>
+
+</div>
+
+
+   
+    <script src="./weather.js"></script>
+</body>
+</html>
